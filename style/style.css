@@ -52,3 +52,13 @@ body{
    ul.topnav li a:hover {background-color: #555;}
 
    ul.topnav li.icon {display: none;}
+
+   .input[type=text] {
+       width: 130px;
+       -webkit-transition: width 0.4s ease-in-out;
+       transition: width 0.4s ease-in-out;
+   }
+
+   input[type=text]:focus {
+       width: 100%;
+   }
