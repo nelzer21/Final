@@ -8,7 +8,6 @@
   <body>
     <div id="wrapper">
       <div id="header">Shamazon</div>
-      <img id="banner" src="images/Shoes.psd" alt="Banner Image"/>
   </div>
   <ul class="topnav" id="myTopnav">
       <li><a href="#Products">Products</a></li>
@@ -34,42 +33,42 @@
 
       <tr>
       <td align=right><b>Last name:</b></td>
-      <td><input type=text name=lname value="[value lname]"></td>
+      <td><input type=text name=lname value="[name]"></td>
       </tr>
 
       <tr>
       <td align=right rowspan=2><b>Address:</b></td>
-      <td><input type=text name=address1 value="[value address1]"></td>
+      <td><input type=text name=address1 value="[address1]"></td>
       </tr>
 
       <tr>
-      <td><input type=text name=address2 value="[value address2]"></td>
+      <td><input type=text name=address2 value="[address2]"></td>
       </tr>
 
       <tr>
       <td align=right><b>City:</b></td>
-      <td><input type=text name=city value="[value city]"></td>
+      <td><input type=text name=city value="[city]"></td>
       </tr>
 
       <tr>
       <td align=right><b>State:</b></td>
-      <td><input type=text name=state value="[value state]"></td>
+      <td><input type=text name=state value="[state]"></td>
       </tr>
 
       <tr>
       <td align=right><b>Postal code:</b></td>
-      <td><input type=text name=zip value="[value zip]"></td>
+      <td><input type=text name=zip value="[zip]"></td>
       </tr>
 
       <tr>
       <td align=right><b>Country:</b></td>
-      <td><input type=text name=country value="[value country]"></td>
+      <td><input type=text name=country value="[country]"></td>
       </tr>
 
       </table>
 
       <p>
-      Note: We assume that your billing address is the same as your shipping address.
+
       </p>
 
       <table cellpadding=3>
@@ -80,12 +79,12 @@
       </tr>
 
       <tr>
-      <td align=right><b>Credit card expiration date:</b></td>
+      <td align=right><b>Expiration date:</b></td>
       <td>
-      Month (number from 1-12):
+      Month:
       <input type=text name=mv_credit_card_exp_month value="" size=2 maxlength=2>
       <br>
-      Year (last two digits only):
+      Year:
       <input type=text name=mv_credit_card_exp_year value="" size=2 maxlength=2>
       </td>
       </tr>
@@ -93,12 +92,10 @@
       </table>
 
       <p>
-      <input type=submit name=submit value="Finalize!">
+      <input type=submit name=submit value="Place Order">
       <input type=reset name=reset value="Reset">
       </p>
 
       </form>
-
-      <p>[page index]Return to shopping instead</a></p>
   </body>
 </html>
