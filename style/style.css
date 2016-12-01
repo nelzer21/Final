@@ -77,3 +77,33 @@
    div.iphone:hover {
        border: 1px solid #777;
    }
+   div.camera {
+       position: absolute;
+       top: 300px;
+       bottom: 60px;
+       left: 490px;
+       padding: 0px;
+       margin: 5px;
+       border: 1px solid white;
+       float: left;
+       width: 180px;
+   }
+
+   div.camera:hover {
+       border: 1px solid #777;
+   }
+   div.drone {
+       position: absolute;
+       top: 300px;
+       bottom: 60px;
+       left: 490px;
+       padding: 0px;
+       margin: 5px;
+       border: 1px solid white;
+       float: left;
+       width: 180px;
+   }
+
+   div.drone:hover {
+       border: 1px solid #777;
+   }
