@@ -112,7 +112,7 @@
        position: absolute;
        top: 300px;
        bottom: 60px;
-       left: 50px;
+       right: 50px;
        padding: 0px;
        margin: 5px;
        border: 1px solid white;
@@ -121,13 +121,13 @@
    }
 
    div.gloves:hover {
-       border: 1px solid #777;
+       border: 1px;
    }
    div.person {
        position: absolute;
        top: 500px;
        bottom: 60px;
-       left: 460px;
+       right: 460px;
        padding: 0px;
        margin: 5px;
        border: 1px solid white;
@@ -136,13 +136,13 @@
    }
 
    div.person:hover {
-       border: 1px solid #777;
+       border: 1px;
    }
    div.basketball {
        position: absolute;
        top: 300px;
        bottom: 60px;
-       left: 460px;
+       right: 460px;
        padding: 0px;
        margin: 5px;
        border: 1px solid white;
