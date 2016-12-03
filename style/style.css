@@ -107,3 +107,139 @@
    div.drone:hover {
        border: 1px solid #777;
    }
+
+   div.gloves {
+       position: absolute;
+       top: 300px;
+       bottom: 60px;
+       left: 50px;
+       padding: 0px;
+       margin: 5px;
+       border: 1px solid white;
+       float: left;
+       width: 180px;
+   }
+
+   div.gloves:hover {
+       border: 1px solid #777;
+   }
+   div.person {
+       position: absolute;
+       top: 500px;
+       bottom: 60px;
+       left: 460px;
+       padding: 0px;
+       margin: 5px;
+       border: 1px solid white;
+       float: left;
+       width: 180px;
+   }
+
+   div.person:hover {
+       border: 1px solid #777;
+   }
+   div.basketball {
+       position: absolute;
+       top: 300px;
+       bottom: 60px;
+       left: 460px;
+       padding: 0px;
+       margin: 5px;
+       border: 1px solid white;
+       float: left;
+       width: 180px;
+   }
+
+   div.basketball:hover {
+       border: 1px solid #777;
+   }
+   div.cars {
+       position: absolute;
+       top: 300px;
+       bottom: 60px;
+       left: 50px;
+       padding: 0px;
+       margin: 5px;
+       border: 1px solid white;
+       float: left;
+       width: 180px;
+   }
+
+   div.cars:hover {
+       border: 1px solid #777;
+   }
+   div.breaks {
+       position: absolute;
+       top: 500px;
+       bottom: 60px;
+       left: 460px;
+       padding: 0px;
+       margin: 5px;
+       border: 1px solid white;
+       float: left;
+       width: 180px;
+   }
+
+   div.breaks:hover {
+       border: 1px solid #777;
+   }
+   div.parts {
+       position: absolute;
+       top: 300px;
+       bottom: 60px;
+       left: 460px;
+       padding: 0px;
+       margin: 5px;
+       border: 1px solid white;
+       float: left;
+       width: 180px;
+   }
+
+   div.parts:hover {
+       border: 1px solid #777;
+   }
+   div.bed {
+       position: absolute;
+       top: 300px;
+       bottom: 60px;
+       left: 50px;
+       padding: 0px;
+       margin: 5px;
+       border: 1px solid white;
+       float: left;
+       width: 180px;
+   }
+
+   div.bed:hover {
+       border: 1px solid #777;
+   }
+   div.volleyball {
+       position: absolute;
+       top: 500px;
+       bottom: 60px;
+       left: 460px;
+       padding: 0px;
+       margin: 5px;
+       border: 1px solid white;
+       float: left;
+       width: 180px;
+   }
+
+   div.volleyball:hover {
+       border: 1px solid #777;
+   }
+   div.campfire {
+       position: absolute;
+       top: 300px;
+       bottom: 60px;
+       left: 460px;
+       padding: 0px;
+       margin: 5px;
+       border: 1px solid white;
+       float: left;
+       width: 180px;
+   }
+
+   div.campfire:hover {
+       border: 1px solid #777;
+   }
