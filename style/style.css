@@ -1,4 +1,4 @@
-
+body {background-color: #e3dfd5;}
 *{
   padding:0;
   margin:0 auto;
@@ -75,13 +75,13 @@
    }
 
    div.iphone:hover {
-       border: 1px solid #777;
+       border: 1px;
    }
    div.camera {
        position: absolute;
-       top: 500px;
+       top: 450px;
        bottom: 60px;
-       left: 460px;
+       left: 376px;
        padding: 0px;
        margin: 5px;
        border: 1px solid white;
@@ -90,13 +90,13 @@
    }
 
    div.camera:hover {
-       border: 1px solid #777;
+       border: 1px;
    }
    div.drone {
        position: absolute;
        top: 300px;
        bottom: 60px;
-       left: 460px;
+       left: 380px;
        padding: 0px;
        margin: 5px;
        border: 1px solid white;
@@ -105,14 +105,14 @@
    }
 
    div.drone:hover {
-       border: 1px solid #777;
+       border: 1px;
    }
 
    div.gloves {
        position: absolute;
        top: 300px;
        bottom: 60px;
-       right: 50px;
+       left: 720px;
        padding: 0px;
        margin: 5px;
        border: 1px solid white;
@@ -125,9 +125,9 @@
    }
    div.person {
        position: absolute;
-       top: 500px;
+       top: 440px;
        bottom: 60px;
-       right: 460px;
+       left: 1070px;
        padding: 0px;
        margin: 5px;
        border: 1px solid white;
@@ -142,7 +142,7 @@
        position: absolute;
        top: 300px;
        bottom: 60px;
-       right: 460px;
+       left: 1070px;
        padding: 0px;
        margin: 5px;
        border: 1px solid white;
@@ -151,13 +151,13 @@
    }
 
    div.basketball:hover {
-       border: 1px solid #777;
+       border: 1px;
    }
    div.cars {
        position: absolute;
-       top: 300px;
+       top: 700px;
        bottom: 60px;
-       left: 50px;
+       left: 35px;
        padding: 0px;
        margin: 5px;
        border: 1px solid white;
@@ -166,13 +166,13 @@
    }
 
    div.cars:hover {
-       border: 1px solid #777;
+       border: 1px;
    }
    div.breaks {
        position: absolute;
-       top: 500px;
+       top: 825px;
        bottom: 60px;
-       left: 460px;
+       left: 378px;
        padding: 0px;
        margin: 5px;
        border: 1px solid white;
@@ -181,13 +181,13 @@
    }
 
    div.breaks:hover {
-       border: 1px solid #777;
+       border: 1px;
    }
    div.parts {
        position: absolute;
-       top: 300px;
+       top: 700px;
        bottom: 60px;
-       left: 460px;
+       left: 377px;
        padding: 0px;
        margin: 5px;
        border: 1px solid white;
@@ -196,13 +196,13 @@
    }
 
    div.parts:hover {
-       border: 1px solid #777;
+       border: 1px;
    }
    div.bed {
        position: absolute;
-       top: 300px;
+       top: 700px;
        bottom: 60px;
-       left: 50px;
+       left: 750px;
        padding: 0px;
        margin: 5px;
        border: 1px solid white;
@@ -211,13 +211,13 @@
    }
 
    div.bed:hover {
-       border: 1px solid #777;
+       border: 1px;
    }
    div.volleyball {
        position: absolute;
-       top: 500px;
+       top: 845px;
        bottom: 60px;
-       left: 460px;
+       left: 1095px;
        padding: 0px;
        margin: 5px;
        border: 1px solid white;
@@ -226,13 +226,13 @@
    }
 
    div.volleyball:hover {
-       border: 1px solid #777;
+       border: 1px;
    }
    div.campfire {
        position: absolute;
-       top: 300px;
+       top: 700px;
        bottom: 60px;
-       left: 460px;
+       left: 1090px;
        padding: 0px;
        margin: 5px;
        border: 1px solid white;
@@ -241,5 +241,22 @@
    }
 
    div.campfire:hover {
-       border: 1px solid #777;
+       border: 1px;
    }
+   h2 {
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+}
+h2 span {
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+}
+h2 span.spacer {
+   padding:0 5px;
+}
