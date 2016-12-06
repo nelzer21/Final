@@ -72,9 +72,9 @@ body {background-color: #e3dfd5;}
           float: left;
           width: 180px;
       }
-      h2 {
+   h2 {
       position: absolute;
-      top: 1px;
+      top: 150px;
       left: 0;
       width: 100%;
    }
@@ -86,5 +86,22 @@ body {background-color: #e3dfd5;}
       padding: 1px;
    }
    h2 span.spacer {
+      padding:0 5px;
+   }
+   h3 {
+      position:absolute;
+      display: inline;
+      top: 150px;
+      left: 0;
+      width: 100%;
+   }
+   h3 span {
+      color: #4c4c4c;
+      font:Helvetica;
+      font-size: 17pt;
+      letter-spacing: -1px;
+      padding: 1px;
+   }
+   h3 span.spacer {
       padding:0 5px;
    }
