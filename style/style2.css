@@ -75,7 +75,7 @@ body {background-color: #e3dfd5;}
    h2 {
       position: absolute;
       top: 150px;
-      left: 0;
+      right: 90px;
       width: 100%;
    }
    h2 span {
@@ -91,8 +91,8 @@ body {background-color: #e3dfd5;}
    h3 {
       position:absolute;
       display: inline;
-      top: 150px;
-      left: 0;
+      top: 50px;
+      left: 300px;
       width: 100%;
    }
    h3 span {
